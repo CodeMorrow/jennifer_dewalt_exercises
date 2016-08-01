@@ -1,0 +1,21 @@
+#background{
+	margin:0;
+	background-color:black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#button{
+	height:50px;
+	width:100px;
+	border-radius: 25px;
+	background-color:gray;
+	color:black;
+	font-size:20px;
+}
+
+#button:focus {
+	outline: none;
+}
